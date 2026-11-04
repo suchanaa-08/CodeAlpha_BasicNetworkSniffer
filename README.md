@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-The Basic Network Sniffer is a Python-based application that captures and analyzes network packets using the Scapy library.
+The Basic Network Sniffer is a Python-based application that captures and analyzes live network packets using the Scapy library.
 
-It helps understand how data travels through a network by displaying packet information such as source IP address, destination IP address, protocol, port numbers, packet size, TCP flags, and payload information.
+It helps understand how data travels through a network by displaying important packet information such as source IP address, destination IP address, protocols, port numbers, packet size, TCP flags, and payload information.
 
 ## Features
 
@@ -40,7 +40,7 @@ CodeAlpha_BasicNetworkSniffer/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/suchanaa-08/CodeAlpha_BasicNetworkSniffer.git
 ```
 
 ### 2. Navigate to the project directory
@@ -85,7 +85,7 @@ python sniffer.py
 
 1. Scapy captures packets from the selected network interface.
 2. Each captured packet is passed to the packet analysis function.
-3. The program identifies the network and transport protocol layers.
+3. The program identifies network and transport protocol layers.
 4. It extracts IP addresses, port numbers, packet size, and TCP flags.
 5. It displays available payload information.
 
@@ -100,12 +100,10 @@ python sniffer.py
 
 ## Note
 
-The network interface index in `sniffer.py` is specific to the development computer. Users may need to update it according to their own network interface configuration.
-
-The program should only be used to monitor networks and devices for which the user has permission.
-
-HTTPS payloads are generally encrypted and cannot be read as plaintext by this basic sniffer.
+- The network interface index in `sniffer.py` is specific to the development computer. Users may need to update it according to their own network interface configuration.
+- HTTPS payloads are generally encrypted and cannot be read as plaintext by this basic sniffer.
+- Use this application only on networks and devices you own or have permission to monitor.
 
 ## Author
 
-Rupam Mondal
+Suchana Pan
